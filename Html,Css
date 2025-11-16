@@ -1,0 +1,117 @@
+# Hostel-Complaints-Management-portal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hostel Complaint Portal - UI V2</title>
+<style>
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #d9e4f5, #f7f9fc);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 420px;
+        background: #ffffff;
+        padding: 35px;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        border: 2px solid #e6eef7;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #334;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #445;
+        margin-bottom: 7px;
+        display: inline-block;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 18px;
+        background: #f1f5fb;
+        border: 2px solid #d4deee;
+        border-radius: 10px;
+        font-size: 14px;
+        transition: 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+        border-color: #3b82f6;
+        background: #ffffff;
+        box-shadow: 0 0 8px rgba(59,130,246,0.3);
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        background: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        letter-spacing: 1px;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        background: #1e5fd1;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(30,95,209,0.4);
+    }
+
+    .footer-text {
+        margin-top: 18px;
+        text-align: center;
+        font-size: 13px;
+        color: #667;
+    }
+</style>
+</head>
+<body>
+
+<header>Hostel Complaint Management Portal</header>
+
+<div class="section">
+    <h2>Student Login</h2>
+    <input type="text" placeholder="Enter Student ID" />
+    <input type="password" placeholder="Enter Password" />
+    <button class="btn">Login</button>
+</div>
+
+<div class="section">
+    <h2>Register Complaint</h2>
+    <input type="text" placeholder="Complaint Title" />
+    <textarea rows="4" placeholder="Describe your issue..."></textarea>
+    <button class="btn">Submit Complaint</button>
+</div>
+
+<div class="section">
+    <h2>Admin Login</h2>
+    <input type="text" placeholder="Admin Username" />
+    <input type="password" placeholder="Enter Password" />
+    <button class="btn">Login</button>
+</div>
+
+</body>
+</html>
